@@ -3,4 +3,796 @@
     <string name="title_home">Home</string>
     <string name="title_kategori">Kategori</string>
     <string name="title_search">Cari</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="judul">
+        <!--bali-->
+        <item>Bebek betutu</item>
+        <item>Ayam suwir</item>
+        <item>Sambal embe</item>
+        <item>Plecing kangkung</item>
+        <item>Lawar</item>
+        <!--aceh-->
+        <item>Kuah pliek u</item>
+        <item>Sate matang</item>
+        <item>Ayam tangkap</item>
+        <item>Eungkot keumamah</item>
+        <item>Mie Goreng Aceh</item>
+        <!--padang-->
+        <item>Rendang Padang</item>
+        <item>Sambal Ijo</item>
+        <item>Sate Padang</item>
+        <item>Kepiting Saus Padang</item>
+        <item>Lapis Ayam Khas Padang</item>
+        <!--Semarang-->
+        <item>Tahu Gimbal</item>
+        <item>Lumpia Semarang</item>
+        <item>Babat Gongso Khas Semarang</item>
+        <item>Tahu Pong</item>
+        <item>Nasi Gandul Semarang</item>
+        <!--Sunda-->
+        <item>Nasi Timbel</item>
+        <item>Karedok</item>
+        <item>Soto Bandung</item>
+        <item>Seblak Bandung</item>
+        <item>Pepes ikan merah</item>
+
+    </string-array>
+
+    <string-array name="gambar">
+        <!--bali-->
+        <item>https://cdn.idntimes.com/content-images/post/20180702/88e160f8a6a91e3b7ec32923ed347dca.jpg</item>
+        <item>https://cdn.idntimes.com/content-images/post/20180702/fed834911285189a28e333180c5a2691.jpg</item>
+        <item>https://cdn.idntimes.com/content-images/post/20180702/e92b7c52c3a0abfc40aa9675dcf4f469.jpg</item>
+        <item>https://cdn.idntimes.com/content-images/post/20180702/91da91d1d6f4ee9ca50bdf4400a3dfff.jpg</item>
+        <item>https://cdn.idntimes.com/content-images/post/20180702/a1254ed3932cbe734837a20379fc39be.jpg</item>
+        <!--aceh-->
+        <item>https://cdn.idntimes.com/content-images/post/20180928/e6c990958b5806e5399bc48467af1a11.png</item>
+        <item>https://cdn.idntimes.com/content-images/post/20180928/c4dbe8401b045d6c7cc886787f6b891e.jpg</item>
+        <item>https://cdn.idntimes.com/content-images/post/20180928/0ed74d397404ea669a529bd29426f649.jpg</item>
+        <item>https://cdn.idntimes.com/content-images/post/20180928/4c00b7705a60a93bf8ea258188470c04.jpg</item>
+        <item>https://cdns.klimg.com/merdeka.com/i/w/news/2018/12/13/1031598/content_images/670x335/20181213114140-1-ilustrasi-mie-goreng-aceh-002-tantri-setyorini.jpg</item>
+        <!--padanng-->
+        <item>https://2.bp.blogspot.com/-ekdXal6LEa0/V9YK1wMx82I/AAAAAAAACS8/zHkqhpNCjeQWxYf0ifNLLVV4cMRkG9hDACLcB/s1600/resep-rendang-padang.jpg</item>
+        <item>https://www.bukumasakan.com/wp-content/uploads/2018/08/sambal-ijo-padang.jpg</item>
+        <item>https://3.bp.blogspot.com/-u___fYwpc0M/WPxSjYjYRKI/AAAAAAAAGJk/iUJv8pzopGQRHihsWw9braPuklut3S0zACLcB/s1600/sate-padang-pariaman.jpg</item>
+        <item>https://cdn0-production-images-kly.akamaized.net/3d6NuhY0KaXB2bDcqHys_E47xcA=/1280x720/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2355329/original/078016000_1536562953-resep-masakan-sehari-hari.jpg</item>
+        <item>https://www.masakapahariini.com/wp-content/uploads/2018/04/lapis_daging_istimewa_MAHI.jpg</item>
+        <!--Semarang-->
+        <item>https://iradiofm.com/wp-content/uploads/2014/08/images_2014_MDM_tahu_gimbal.jpg</item>
+        <item>https://2.bp.blogspot.com/-Vqq79dMG7vY/WfXc_Zu7uwI/AAAAAAAAGTY/EO6wBGGhl_Yb8V41n9GYLA2L94cIkN7dgCEwYBhgL/s400/lumpia%2B1.jpg</item>
+        <item>https://img-global.cpcdn.com/003_recipes/2ec6d212f38088bb/1200x630cq70/photo.jpg</item>
+        <item>https://i0.wp.com/widhiaanugrah.com/wp-content/uploads/2015/01/tahu-pong.jpg</item>
+        <item>https://cdn.idntimes.com/content-images/community/2018/01/b2-4420033ec9f85ba3c9bd5b6e072a7105_600x400.jpg</item>
+        <!--Sunda-->
+        <item>https://img.okezone.com/content/2017/10/06/298/1790310/resep-nasi-timbel-sajian-spesial-wajib-dicoba-di-rumah-untuk-keluarga-tercinta-TIy197Ggd0.jpg</item>
+        <item>https://www.primarasa.co.id/images/images/karedok.jpg</item>
+        <item>https://asset-a.grid.id/crop/0x0:0x0/700x465/photo/2019/03/06/1521197321.jpg</item>
+        <item>https://3.bp.blogspot.com/-qxIfTgY5rPA/VuEjo2SQZyI/AAAAAAAAOZ8/jO90U_RN-48/s1600/tokomesin.png</item>
+        <item>https://truffle-assets.imgix.net/n0tuaih9ywav_vXCqcjG5CokecKMmMGoCq_pepes-ikan-mas_landscapeThumbnail_id.png</item>
+
+    </string-array>
+
+    <string-array name="bahanlangkah">
+        <!--bali-->
+        <item>Bahan-bahan yang diperlukan:
+•	1 ekor bebek, belah tengah dan lebarkan
+•	1 buah jeruk nipis
+•	1/2 sendok makan garam
+•	90 ml santan kental
+Bahan untuk bumbu:
+•	5 cabai merah besar, buang bijinya, iris halus
+•	5 cabai merah keriting, iris halus
+•	5 cabai rawit orange, iris halus
+•	10 siung bawang merah, iris halus
+•	5 siung bawang putih, iris halus
+•	2 batang serai, ambil bagian putihnya, cincang halus
+•	1 ruas kencur cincang halus
+•	2 ruas jahe, cincang halus
+•	2 sendok teh terasi bakar
+•	2 ruas lengkuas, iris kasar, dan pipihkan
+•	1 ruas kunyit bakar, cincang halus
+•	1/4 sendok teh kunyit bubuk
+•	8 buah kemiri sangrai, tumbuk kasar
+•	1 sendok teh ketumbar bubuk
+•	1 sendok teh merica bubuk
+•	1 sendok teh pala bubuk
+•	3 lembar daun jeruk, buang tulang tengahnya dan iris halus
+•	5 lembar daun salam, robek kasar
+•	garam, gula, dan kaldu bubuk secukupnya
+Cara membuat:
+1.	Siapkan bebek, lumuri permukaannya dengan air jeruk nipis dan garam hingga merata. Biarkan bebek selama 15 menit. Cuci bersih.
+2.	Siapkan wajan dan panaskan minyak. Masukkan semua bahan bumbu, tumis hingga harum dan matang.
+3.	Tambahkan garam, gula, kaldu bubuk, dan bubuk-bubuk lainnya (sesuai selera). Aduk rata.
+4.	Masukkan bebek dan lumuri permukaannya dengan tumisan bumbu. Tutup wajan dan ungkep dengan api kecil hingga berubah warna dan bumbu meresap.
+5.	Masukkan 1/2 campuran air dan santan, aduk-aduk hingga santan dan bumbu tercampur merata. Tutup wajan rapat-rapat dan masak hingga air habis.
+6.	Balikkan bebek, masukkan 1/2 sisa santan, tutup wajan dan masak kembali hingga air habis dan bebek matang.
+7.	Untuk mengetahui apakah bebek telah matang hingga bagian dalamnya, tusuk dan robek dengan garpu. Jika belum matang, tambahkan air dan masak hingga matang.
+8.	Untuk hasil maksimal, panggang sebentar di oven. Bisa juga dipanggang di bara atau panggangan di kompor.
+9.	Siapkan loyang datar, alasi loyang dengan selembar alumunium foil. Letakkan ayam beserta seluruh bumbunya di atas alumunium foil. Panggang di dalam oven bersuhu 180 derajat celcius selama 15-20 menit hingga bumbu terlihat mengering.
+10.	Keluarkan bebek dari oven, bebek betutu siap untuk disajikan</item>
+        <item>Bahan-bahan yang diperlukan:
+•	250 gram ayam, kukus
+•	2 siung bawang putih, haluskan
+•	5 siung bawang merah, iris tipis
+•	2 ruas jari lengkuas, geprek
+•	5 helai daun jeruk
+•	2 sendok makan cabai merah halus
+•	2 buah cabai merah, iris
+•	2 batang serai, iris halus
+•	1 sendok teh garam
+•	1 sendok teh gula
+•	100 ml santan kental
+Cara memasak:
+•	Kukus ayam hingga matang, angkat, suwir.
+•	Tumis bawang putih hingga harum. Masukkan bawang merah, tumis hingga harum kembali.
+•	Masukkan lengkuas dan daun jeruk hingga matang.
+•	Masukkan ayam kukus dan cabai halus, aduk rata. Taburi serai dan cabai merah.
+•	Tambahkan air secukupnya agar masakan tidak kering.
+•	Masukkan 100 ml santan kental, tumis hingga masak.
+•	Sajikan dengan nasi hangat agar lebih mantap.</item>
+        <item>Bahan-bahan yang diperlukan:
+•	5 siung bawang merah, iris tipis
+•	7 siung bawang putih, iris tipis
+•	13 buah cabai rawit
+•	garam secukupnya
+•	air jeruk limau secukupnya
+•	kaldu ayam bubuk (opsional)
+•	minyak goreng secukupnya
+Cara membuat:
+•	Goreng bawang merah dan bawang putih hingga setengah matang atau kering sesuai selera.
+•	Goreng cabai rawit, haluskan dengan cobek.
+•	Campur bawang goreng bersama cabai yang telah dihaluskan.
+•	Tambahkan garam dan kaldu ayam bubuk secukupnya. Tambahkan gula sesuai selera.
+•	Aduk hingga rata, sambal pun siap untuk disajikan</item>
+        <item>Bahan-bahan:
+•	500 gram kangkung
+•	1 sendok teh garam
+Bahan untuk sambal plecing;
+•	7 buah cabai merah bakar
+•	6 buah cabai rawit merah bakar
+•	1 sendok teh terasi bakar
+•	8 butir bawang merah
+•	5 siung bawang putih
+•	2 cm kencur
+•	100 gram tomat merah
+•	2 sendok makan air jeruk limau
+•	1 sendok teh garam
+•	1 sendok teh gula pasir
+•	1 sendok teh merica
+Cara pembuatan:
+•	Blansir kangkung dengan cara didihkan air, lalu masukkan kangkung dan garam. Masak sampai agak layu. Angkat dan tiriskan.
+•	Haluskan cabai merah, cabai rawit merah, terasi, bawang putih, bawang merah, kencur, dan tomat merah.
+•	Bumbui dengan garam, gula, dan air jeruk limo. Aduk hingga rata.
+•	Sajikan kangkung dengan bumbu.</item>
+        <item>han-bahan yang dibutuhkan:
+•	100 gram kelapa parut (setengah tua)
+•	150 gram daging ayam rebus, disuwir
+•	100 garam kacang panjang, potong 2 cm, lalu rebus setengah matang
+•	100 gram kecambah, rebus
+•	2 sendok makan gula merah, disisir
+•	2 sendok makan minyak untuk menumis
+•	1 buah mentimun, potong dadu kecil
+•	3 sendok makan bawang goreng
+•	1 buah jeruk nipis
+•	1 sendok teh garam
+Bahan untuk bumbu halus:
+•	3 buah cabai merah, buang bijinya
+•	10 buah cabai rawit (atau sesuai selera)
+•	6 butir bawang merah
+•	2 siung bawang putih
+•	1/2 sendok teh lada
+•	2 butir kemiri
+•	1 cm jahe
+•	1 cm lengkuas
+•	2 cm kencur
+•	1/2 sendok teh ketumbar
+•	1/2 blok terasi
+Cara membuat:
+•	Tumis bumbu halus sampai harum.
+•	Masukkan garam, gula merah, dan tiga sendok makan air. Aduk rata.
+•	Masukkan daging ayam, kelapa parut, kacang panjang, dan kecambah.
+•	Matikan kompor, masukkan irisan mentimun. Aduk rata.
+•	Sebelum dihidangkan, tambahkan air perasan jeruk nipis dan taburan bawang goreng.</item>
+<!--aceh-->
+        <item>Bahan-bahan
+15 porsi
+1.	Bumbu Yang Dihaluskan:
+2.	7 Siung Bawang Merah
+3.	3 Siung Bawang Putih
+4.	7 bh Cabe Merah
+5.	20 bh Cabe Rawit (Sesuai selera, kalo suka pedas tambahkan lagi)
+6.	1 Inci Jahe
+7.	1 1/2 sdt Ketumbar
+8.	1/4 sdt Jinten
+9.	Secukupnya Lada
+10.	Secukupnya Kunyit
+11.	1 sdt bubuk cabe merah
+12.	2 Sdm Kelapa
+13.	3 sdm Patarana/Plik Ue (Sesuai Selera)
+14.	1 inci Lengkuas (digeprek)
+15.	Bahan Yang Dirajang:
+16.	3 btg Serai Cincang sehalus mungkin
+17.	6 Lembar Daun Jeruk
+18.	2 bh Bunga Kencong / Kala Cincang
+19.	Daun Kari / Oen teumurui dirajang halus.
+20.	SAYUR-SAYURAN:
+21.	1/4 Kg Nangka Muda (Mata Kucing) Potong Kecil2
+22.	4 ikat Daun Melinjo Cincang kecil
+23.	1 Ons Buah Melinjo muda
+24.	1 Bh jantung Pisang
+25.	Kates Muda / Mengkal (potong kecil / seukuran nangka)
+26.	1 Ons Kacang Panjang Potong ukuran 1/2 Inci
+27.	5 Bh Cabe Hijau potong kecil
+28.	1/4 kg Udang Kecil, bersihkan
+29.	2 Bh Kelapa
+30.	1 Kg Sumpil / Cue
+31.	secukupnya Garam
+32.	secukupnya Air
+Langkah
+70 menit
+1.	Nangka, Sumpil, bumbu halus, bahan yang dirajang halus, Garam serta tambahkan sedikit air rebus sebentar agar bumbunya meresap.
+2.	Tambahkan Jantung Pisang dalam rebusan tadi, aduk dan tunggu sampai mendidih.
+3.	Setelah Nangka dan jantung pisangnya empuk, tambahkan santan cair, diaduk sampai mendidih. kemudian tambahkan buah melinjo dan cabe hijau. kemudian tambahkan pati santan diaduk terus sampai mendidih. setelah itu tambahkan udang, daun melinjo, dan kacang panjang yg telah dipotong. diaduk..
+4.	Setelah mendidih tambahkan kates yg telah dipotong td tnggu sampai mendidih dan matikan apinya. kuah plik ue siap dihidangkan..
+5.	- untuk jantung pisang Bersihkan, ambil bagian dalam/ yg lunak, cuci, rendam dg garam, 1 menit kemudian cuci bersih
+- untuk kelapa Ambil Santannya, Ambil dan Pisahkan antara pati santan dan santan yang cair.
+- untuk cue/sumpil kalau ada dan suka tambahkan, potong ujungnya, cuci bersih, tambah kan garam, rendam, 1 menit kemudian cuci bersih
+</item>
+        <item>Bahan utama:
+•	300 gram daging kambing, potong-potong kecil berbentuk dadu
+Bahan bumbu untuk membakar sate:
+•	1 sdt ketumbar
+•	1 siung bawang putih
+•	1 siung bawang merah
+•	1 batang serai
+•	1 ruas jari jahe
+•	1 ruas jari lengkuas
+•	2 cm kunyit
+•	2 butir kemiri
+•	Garam secukupnya
+•	Gula merah secukupnya
+•	Minyak secukupnya, untuk menumis
+Cara membuat sate:
+•	Haluskan semua bumbu untuk membakar sate.
+•	Panaskan minyak dan tumis bumbu yang sudah dihaluskan. Lalu masukan daging yang telah dipotong-potong. Tumis sebentar saja sampai bumbu meresap.
+•	Angkat dan susun daging dengan tusuk sate, lalu bakar.
+Bahan bumbu kacang
+•	2 ons kacang tanah, goreng lalu haluskan
+•	1 siung bawang putih, untuk menumis
+•	2 lembar daun salam
+•	1 lembar daun jeruk purut
+•	2 lembar daun pandan
+•	1 batang kecil serai
+•	1 batang kayu manis
+•	2 ons cabai kering
+•	500 ml santan
+•	1 sdm gula putih
+•	Gula merah sedikit saja
+•	Kecap manis secukupnya
+Cara memasak bumbu kacang:
+•	Tumis semua bahan-bahan (kecuali kecap manis) sampai mengeluarkan aroma harum.
+•	Lalu masukkan santan. Tunggu sampai sedikit mendidih.
+•	Masukkan kecang tanah yang sudah dihaluskan bersama cabai kering.
+•	Aduk sampai mendidih dan mengental hingga terlihat mengeluarkan minyak.
+•	Tambahkan kecap manis saat akan menyajikan sate matang dan saus bumbu kacang.
+Bahan kuah soto sate matang:
+•	1/2 liter air matang
+•	1 sdt ketumbar
+•	1 siung bawang putih
+•	1 siung bawang merah
+•	1 batang serai
+•	1 ruas jari jahe
+•	1 ruas jari lengkuas
+•	2 cm kunyit
+•	2 butir kemiri
+•	1/2 butir kelapa, untuk santan
+•	Garam secukupnya
+•	Gula merah secukupnya
+Cara membuat kuah soto sate matang:
+1.	Rebus tulang daging kambing menggunakan air matang hingga mendidih dan menjadi kaldu.
+2.	Campur semua bumbu menjadi satu dan haluskan. Lalu masukan ke dalam rebusan tulang.
+3.	Masukkan santan ke dalam rebusan tulang yang telah dicampur dengan semua bumbu. Masak hingga mendidih.</item>
+        <item>Bahan-bahan yang diperlukan:
+•	1 ekor ayam, disarankan ayam kampung
+•	1 liter minyak goreng
+•	8 tangkai daun salam koja (temurui)
+•	4 lembar daun pandan, iris kasar
+•	1 cangkir air matang
+•	2 atau 3 buah cabai hijau
+Bumbu untuk Ayam Tangkap:
+•	3 siung bawang putih untuk dirajang, dan 3 siung lagi untuk dihaluskan
+•	3 buah bawang merah
+•	5 buah cabe rawit
+•	1 ruas kunyit sebesar ibu jari (2 cm)
+•	1 ruas jahe sebesar ibu jari (2 cm)
+•	1 sdt garam
+•	Air asam jawa, secukupnya
+Cara membuatnya ayam tangkap khas Aceh:
+1.	Potong ayam kampung menjadi 24-30 potongan, sesuai selera tapi usahakan kecil-kecil, kemudian cuci bersih. Bila perlu, remas-remas dengan air perasan jeruk nipis.
+2.	Haluskan semua bumbu di atas, lalu campur dengan 200 ml air matang.
+3.	Masukkan potongan ayam kecil-kecil ke dalam bumbu, dan rendam selama 10-15 menit.
+4.	Panaskan minyak dalam wajan besar sampai benar-benar mendidih.
+5.	Lalu Goreng ayam sampai kecokelatan.
+6.	Semua potongan ayam harus tenggelam dalam minyak dan jangan sampai terlalu berhimpitan satu sama lain.
+7.	Untuk hasil terbaik, gunakan wajan yang besar, dengan 2 liter minyak goreng. Atau, jangan menggoreng sekaligus, melainkan sedikit demi sedikit. (Ingat: keberhasilan masakan sederhana ini sangat bergantung pada teknik menggoreng).
+8.	Sampai ayam terlihat matang, masukkan irisan bawang merah, daun salam koja, daun pandan, dan cabe hijau. Teruskan menggoreng sekitar tiga menit lagi.
+9.	Angkat, tiriskan, dan segera hidangkan dalam keadaan panas.
+10.	Ayam tangkap siap Anda nikmati bersama dengan nasi putih hangat.</item>
+        <item>Bahan-bahan
+•	500 gram ikan tongkol kering ( ikan kayu, eungkot kayee )
+•	100 gram kentang
+Bumbu
+•	50 gram asam sunti
+•	25 gram cabai merah
+•	25 gram cabai hijau biarkan utuh
+•	50 gram bawang merah
+•	2 siung bawang putih
+•	1 kelingking kunyit
+•	Garam secukupnya
+•	5 lembar duan jeruk nipis
+•	1 tangkai daun kari
+•	200 ml minyak kelapa
+Cara Membuat
+1.	Ikan kayu di sayat tipis-tipis, atau di suwir-suwir, lalu di rendam di air panas sampai lunak
+2.	Bumbu-bumbu kecuali cabai hijau, daun jeruk nipis dan daun kari di haluskan. Tumis bumbu halus dengan sedikit minyak sampai matang.
+3.	Tambahkan minyak kelapa, masukan ikan kayu. Masukan kentang, kacang panjang, dan cabai hijau utuh. Tambahkan air bila di perlukan. Masak sampai mendidih.
+4.	Bila kurang menyukai masakan yang berminyak. Penggunaan minyak kelapa dapat di kurangi sebanyak mungkin – misalkan hanya satu sendok makan untuk menumis bumbu dan pemasakan di lakukan dengan air, sajikan dengan nasi pulen panas.
+</item>
+        <item>
+            Bahan - Bahan
+            •	600 ml air untuk merebus
+•	300 gram mie telur, rebus dan tiriskan
+•	200 gram dada ayam dipotong dadu
+•	200 ml kaldu ayam
+•	50 gram tauge
+•	50 gram kol, iris tipis
+•	5 sendok makan minyak untuk menumis
+•	3 butir bawang merah, cincang halus
+•	2 siung bawang putih, cincang halus
+•	2 batang caisim, iris-iris
+•	2 sendok makan kecap manis
+•	1 lembar daun salam
+•	1 sendok makan air jeruk nipis
+•	1 batang daun bawang perai, iris 1 cm
+•	1 sendok teh gula pasir
+•	1/2 sendok makan garam
+•	1/2 buah tomat, potong-potong
+Bumbu halus:
+•	5 cabai merah keriting
+•	5 butir bawang merah
+•	3 siung bawang putih
+•	2 cm kunyit
+•	1 kapulaga, ambil bijinya
+•	1/2 sendok teh jintan
+•	1/2 sendok teh merica bubuk
+•	emping secukupnya
+Acar:
+•	100 ml air
+•	15 cabai rawit hijau utuh
+•	1 buah timun, buang bijinya dan potong dadu
+•	1 buah wortel besar, kupas dan potong dadu
+•	1 sendok teh gula pasir
+•	1 sendok teh cuka
+•	1/2 sendok teh garam
+Cara membuat mie goreng aceh:
+1.	Untuk membuat acar, campurkan semua bahan acar, aduk rata, dan diamkan kurang lebih setengah jam.
+2.	Rebus daging ayam hingga matang, kemudian tiriskan airnya dan potong-potong bentuk dadu.
+3.	Panaskan minyak goreng, tumis bumbu halus dan daun salam hingga harum. Lalu masukkan daging ayam dan aduk rata.
+4.	Bumbui dengan kecap, gula, garam, kaldu dan air jeruk nipis. Masukkan tauge, kol, dan caisim. Masak hingga sayuran layu.
+5.	Masukkan mie dan irisan daun bawang. Masak hingga mie meresap bumbu.
+6.	Demikian resep mie goreng Aceh spesial. Sajikan dengan acar dan emping jika suka.
+</item>
+        <!--padang-->
+        <item>Bahan-bahan:
+• 1/2 kg daging sapi tanpa lemak, potong ukuran sedang
+• 2 butir kelapa parut (parut, peras santannya)
+• 1 batang serai
+• 1 lembar daun kunyit
+• 3 lembar daun jeruk
+• 2 lembar daun salam
+• 1 buah asam kandis
+• 2 ruas jari lengkuas (geprek)
+
+Bahan-bahan:
+• 2 ruas jahe
+• 5 siung bawang putih
+• 20 butir bawang merah
+• Kunyit secukupnya
+• 3 buah kemiri
+• 1/2 sdt ketumbar
+• 1/2 ons cabe giling
+• Minyak untuk menumis
+• Garam dan kaldu bubuk secukupnya
+
+Cara membuat:
+1. Tumis bumbu halus, daun-daun, asam kandis, lengkuas hingga harum dan baunya tidak sangu lagi.
+2. Setelah bumbu harum, masukkan santan kelapa, terus diaduk agar santan tidak pecah. Aduk hingga mendidih.
+3. Setelah santan mendidih, masukkan daging sapi, terus diaduk kemudian masukkan garam dan kaldu bubuk sesuai selera.
+4. Kecilkan api, masak hingga empuk dan bumbu meresap ke daging. Setelah matang, siap disajikan.
+</item>
+        <item>Bahan-bahan:
+• 100 gram cabai hijau
+• 250 gram cabai keriting hijau
+• 9 siung bawang putih
+• 15 siung bawang merah
+• 3-4 lembar daun jeruk
+• Garam dan gula secukupnya
+
+Cara membuat:
+1. Kukus cabai, bawang merah, dan bawang putih.
+2. Setelah layu, ulek sebentar sampai bertekstur kasar.
+3. Panaskan minyak goreng, goreng cabai + bawang yang sudah diulek/ dihaluskan tadi.
+4. Tambahkan daun jeruk, garam, gula, dan penyedap. Biarkan sampai minyaknya keluar, lalu angkat dan sajikan. Paling enak jika dimakan bersama ayam dan nasi hangat.
+</item>
+        <item>Bahan-bahan:
+• 250 gram lidah sapi, direbus, potong-potong 2x2 cm
+• 100 gram hati sapi, direbus, potong-potong 2x2 cm
+• 300 gram daging sandung lumur
+• 1 liter air
+• 2 lembar daun kunyit
+• 1 batang serai, ambil putihnya, memarkan
+• 1 buah asam kandis
+• 40 gram tepung beras dan 50 ml air, dilarutkan untuk pengental
+• 2 sdm bawang goreng untuk taburan
+• 18 buah tusuk sate
+
+Bumbu halus:
+• 8 butir bawang merah
+• 1 buah cabai merah keriting
+• 1/2 sdt ketumbar
+• 1 sdt merica
+• 1/4 sdt jintan
+• 4 cm kunyit, dibakar
+• 1 cm lengkuas
+• 1 1/4 sdt gula pasir
+• 1 sdt garam
+Cara membuat:
+1. Rebus daging sandung lumur dengan air sampai matang dan empuk, potong-potong ukuran 2 x 2 cm. Ukur kaldunya 750 ml.
+2. Rebus lagi lidah sapi hati sapi, bumbu halus, daun kunyit, serai, dan asam kandis. Masak sampai kaldunya menjadi 500 ml dengan api kecil.
+3. Tusuk-tusuk daging sapi, lidah sapi, dan hati sapi secara bergantian di tusuan sate. Bakar sampai harum.
+4. Rebus lagi kaldunya, kentalkan dengan larutan tepung beras, masak sampai meletup-letup.
+5. Sajikan sate dengan kuahnya dan bawang goreng.
+</item>
+        <item>Bahan-bahan:
+• 8 ekor kepiting rajungan
+• 1 bonggol brokoli (optional)
+• 3 buah kentang (optional)
+• 5 sdm saus botolan
+• 4 sdm saus tiram
+• 1 sdm kecap asin
+• Garam secukupnya
+• Gula secukupnya
+• 1 sdt lada
+
+Bumbu halus:
+• 2 buah tomat
+• 5 buah cabai merah keriting
+• 5 siung bawang merah
+• 3 siung bawang putih
+• 1 cm jahe
+
+Cara membuat:
+1. Bersihkan kepiting, belahh dua.
+2. Bersihkan brokoli, belah sesuai selera. Rebus dan tiriskan.
+3. Kupas kentang, potong bentuk stik, cuci lalu goreng hingga matang.
+4. Tumis bumbu halus hingga matang, tambahkan saus sambal, saus tiram, kecap asin, lada, gula, dan garam. Aduk hingga rata.
+5. Masukkan kepiting, masak hingga matang dan air yang dikeluarkan kepiting mengering dan sedikit mengental.
+6. Matikan api, masukkan rebusan brokoli, kentang goreng, aduk pelan hingga rata, hidangkan.
+</item>
+        <item>Bahan-bahan:
+• 1/2 ekor ayam, potong menjadi 6 bagian
+• 1 butir telur, kocok lepas
+• 1 bungkus kaldu instant
+• 2 sdm mentega
+• 2 cm kayu manis
+• 1 lembar daun salam
+• 2 sdm kecap manis
+• 1 sdm cuka
+• 250 ml santan kental
+
+Bumbu halus:
+• 5 butir bawang merah
+• 2 siung bawang putih
+• 1/4 sdt merica
+• 3 butir cengkeh
+• 1/16 sdt jintan
+• 1/12 sdt pala
+• 1 1/2 cm jahe
+• 1 cm lengkuas
+• 2 buah kapulaga
+• Garam secukupnya
+
+Cara membuat:
+1. Cuci bersih ayam yang sudah dipotong-potong, lalu tiriskan.
+2. Campur ayam dengan bumbu yang telah dihaluskan bersama dengan telur, mentega, kecap, cuka, kayu manis, daun salam, dan kaldu instant. Masak sampai ayam agak lunak dan bumbu meresap. Jangan lupa diaduk sesekali agar bumbu tidak hangus.
+3. Setelah agak kering, masukkan santan kental. Aduk-aduk sampai semuanya tercampur rata, dan masak sampai kuah mengental dan berminyak.
+</item>
+        <!--Semarang-->
+        <item>Bahan:
+3 buah tahu putih yang besar, goreng, potong-potong
+100 g daun kol, iris halus
+100 g tauge, seduh air panas, tiriskan
+
+Taburan:
+1 sdm kucai iris halus
+2 sdm bawang merah goreng
+
+Gimbal udang:
+100 g tepung terigu
+1 buah MAGGI® kaldu ayam, remas
+100 ml air
+150 g udang kecil, tanpa kelapa
+100 g tauge, bersihkan
+1 batang daun bawang, iris halus
+1 batang seledri, iris halus
+1 siung bawang putih, parut
+
+Saus Kacang:
+150 ml air masak
+4 sdm kecap manis
+Haluskan:
+100 g kacang tanah goreng
+8 buah cabai rawit
+1 siung bawang putih
+2 sdt gula pasir
+1 sdt garam
+
+Cara membuat :
+
+* Gimbal Udang: Aduk tepung terigu dengan MAGGI, dan air hingga licin.
+* Tambahkan bahan lainnya. Aduk rata.
+* Goreng sesendok demi sesendok hingga matang dan kering. Angkat, tiriskan.
+* Potong-potong. Sisihkan.
+* Saus Kacang: Aduk air, kecap, dan bumbu halus hingga rata.
+* Taruh tahu, gimbal, kol dan tauge. Siram Sausnya dan beri bahan Taburan.
+</item>
+        <item>Bahan – bahan :
+ 3 siung Bawang Putih
+ 1 sdt ebi kering, disangrai dan haluskan
+ 50 gram Udang
+ 50 gr Ayam dicincang kasar
+ 2 btr Telur Ayam
+ 200 gr Rebung Kaleng di iris korek api
+ 1 sdt Kecap
+ 1/2 sdt Garam
+ 1/2 sdt Merica bubuk
+ 1/2 sdt Gula pasir
+ 2 sdm Minyak Goreng
+Cara memasak :
+ Isi : panaskan minyak. Tumis bawang putih dan ebi sampai harum. Tambahkan udang dan ayam. Aduk sampai berubah warna.
+ Sisihkan di pinggir wajan. Masukkan telur. Aduk sampai berbutir. Tambahkan rebung. aduk sampai layu.
+ Masukkan kecap manis, garam. merica bubuk, dan gula pasir. Masak sampai meresap.
+ Ambil selembar kulit lumpia. Beri isi. Lipat dan gulung. Rekatkan dengan larutan tepung terigu. Goreng dalam minyak yang sudah dipanaskan hingga matang.
+ Saus : rebus bawang butih dan air sampai mendidih. Masukkan gula merah, merica bubuk, dan gula pasir. Aduk sampai larut.
+ Kentalkan dengan larutan tepung sagu. Masak sampai meletup-letup.
+ Sajikan lumpia semarang dengan sausnya.
+Resep saus lumpia semarang :
+
+ 1 siung bawang putih, dihaluskan
+ 300 ml air
+ 50 gram gula merah, disisir halus
+ 1/4 sendok teh merica bubuk
+ 25 gram gula pasir
+ 3 sendok makan tepung sagu dan 1 sendok makan air, dilarutkan untuk pengental
+</item>
+        <item>Bahan untuk merebus Babat:
+250 gram babat
+1 sdm air jeruk nipis
+Air secukupnya
+
+Bumbu ungkep:
+1 siung bawang putih, geprek
+2 siung bawang merah, geprek
+2 lembar daun salam
+2 cm lengkuas, geprek
+1 cm jahe, geprek
+1 sendok teh garam
+25 gram gula merah
+Air secukupnya
+Cara membuat ungkep babat:
+1. Lumuri babat dengan air jeruk nipis, diamkan 5 menit lalu cuci hingga bersih.
+2. Rebus dengan air secukupnya hingga mendidih. Tiriskan babat, campur dengan bumbu ungkep, aduk rata. Presto sekitar 15 menit hingga empuk (atau rebus dengan panci biasa hingga empuk ). Sisihkan.
+Bumbu gongso:
+6 buah bawang merah, iris kasar
+1 cm jahe, memarkan
+2 cm lengkuas, memarkan
+1 lembar daun salam
+1 sendok teh kaldu sapi
+1 sendok teh gula merah
+2 sendok makan kecap manis
+1 cube terasi udang
+100 ml air
+
+Bumbu dihaluskan:
+5 buah bawang merah
+10 buah cabai merah keriting
+5 buah cabai rawait merah
+2 buah bawang putih
+1sdm ketumbar
+1/2 buah tomat
+Topping:
+Daun jeruk dan bawang goreng
+Cara membuat:
+1. Tumis bawang merah, jahe, lengkuas, daun salam, dan terasi hingga harum, masukkan bumbu yang sudah dihaluskan.
+2. Lajutkan menumis hingga matang (warna cabe akan menjadi merah tua).
+3. Masukkan babat, kaldu sapi, gula merah, dan kecap manis, aduk rata.
+4. Tambahkan air, tutup panci dan masak hingga meresap dengan api kecil. Cicipi. Siap disajikan dan beri taburan bawang goreng dan daun jeruk.
+</item>
+        <item>Bahan-bahan;
+2 bungkus tahu pong, potong dadu
+2 butir telur bebek rebus, goreng, belah 6 bagian
+3 sdm bawang goreng
+Minyak secukupnya, untuk menggoreng dan menumis
+
+Bumbu rendaman;
+4 siung bawang putih, cincang halus
+2 sdt garam
+1/4 sdt kaldu bubuk (jika suka)
+200 ml air
+
+Bahan gimbal udang;
+250 gram udang sedang, kupas, sisakan ekornya
+150 gram tepung terigu
+2 siung bawang putih, haluskan
+1/2 sdt merica bubuk
+1 batang bawang daun, iris halus
+1/2 sdt garam
+1/4 sdt kaldu bubuk (jika suka)
+200 ml air
+
+Saus petis;
+5 siung bawang putih, haluskan
+15 buah cabai rawit hijau, haluskan
+5 sdm petis udang
+4 sdm kecap manis
+1 sdm gula merah iris
+1 sdt garam
+400 ml air
+
+Cara membuat;
+1. Rendam tahu pong dengan bumbu rendaman. Biarkan 15 menit. Goreng hingga kuning kecokelata. Angkat, tiriskan;
+2. Gimbal udang: campur tepung terigu dan bumbu-bumbu. Tuangkan air sedikit-sedikit sambil terus diaduk. Masukkan udang, aduk rata. Ambil satu sendok makan adonan, goreng hingga matang. Angkat, tiriskan;
+3. Saus petis: tumis bawang putih hingga harum. Tambahkan bumbu lainnya dan air. Masak hingga mendidih dan agak kental, angkat;
+4. Tata tahu pong, potongan telur bebek, dan gimbal udang di atas piring. Siram dengan saus petis. Sajikan dengan taburan bawang goreng.
+</item>
+        <item>Bahan dan bumbu utama nasi gandul Semarang
+•	Daging sapi 400 gram (potong-potong)
+•	Daun salam 1 lembar
+•	Lengkuas 2 cm
+•	Serai 2 batang (hanya diambil putihnya yang sudah dimemarkan)
+•	Kecap manis 5 sdm
+•	Garam 1 sdt
+•	Gula merah 1/2 sdt
+•	Santan dari 1 butir kelapa
+•	Minyak 2 sdm untuk menumis
+Bumbu yang dihaluskan
+•	Bawang merah 10 butir
+•	Bawang putih 4 siung
+•	Jintan 1/2 sdt
+•	Ketumbar 1/2 sdt
+•	Merica 1/2 sdt
+•	Pala 1/4 sdt
+•	Kemiri 3 butir
+•	Kencur 2 cm
+Cara mengolah nasi gandul yang enak asli Semarang
+•	Panaskan minyak. Tumis bumbu halus, daun salam, lengkuas, dan serai sampai harum. Tambahkan daging sapi. Aduk sampai berubah warna.
+•	Masukkan santan, kecap manis, garam, dan gula merah. Masak sampai matang.
+•	Sajikan dengan nasi putih hangat.
+•	Untuk 8 porsi
+</item>
+        <!--Sunda-->
+        <item>Bahan-bahan
+Beras - 300 gram
+Air - 500 ml
+Daun pisang, untuk membungkus - secukupnya
+Pelengkap:
+Ayam goreng - 4 potong
+Tahu goreng - 4 potong
+Tempe goreng - 4 potong
+Mentimun, dipotong-potong - 1 buah
+Daun kemangi, dipetik daunnya - 1 ikat
+Selada - 1 ikat
+Sambal terasi - secukupnya
+Langkah
+1.Cuci beras sampai bersih.
+2.Didihkan air dalam panci, lalu masukan beras dan aduk sampai air meresap.
+3.Matikan api, diamkan selama 10 menit.
+4.Kukus beras selama 30 menit sampai matang. Angkat.
+5.Ambil selembar daun pisang dan taruh 5 sendok makan nasi. Gulung daun pisang. Puntir ujung daun kanan dan kiri. Masukkan ke bagian tengah sambil didorong ke dalam.
+6.Sajikan nasi timbel bersama pelengkapnya
+</item>
+        <item>Bahan-bahan
+Tauge, cuci bersih - 50 gram
+Kacang panjang, cuci bersih dan iris kecil - 50 gram
+Kol, cuci bersih dan iris halus - 50 gram
+Daun kemangi, cuci bersih - 50 gram
+Terong bulat hijau, cuci bersih dan iris tipis - 2 buah
+Ketimun, cuci bersih dan iris kotak tipis - 1 buah
+Bumbu halus:
+Kacang tanah, goreng - 150 gram
+Gula merah - 50 gram
+Bawang putih - 1 siung
+Cabe rawit merah - 2 buah
+Kencur - 4 cm
+Terasi, bakar - 1/2 sdt
+Air asam jawa - 2 sdm
+Garam - 1 sdt
+Air - 75 ml
+Langkah
+1.Dalam satu wadah besar, siapkan bumbu halus. Campur dengan air dan aduk hingga jadi pasta.
+2.Masukkan semua sayuran. Aduk hingga rata.
+Siap disajikan
+</item>
+        <item>Bahan:
+250 gram daging sapi.
+150 gram lobak.
+50 gram kedelai.
+Bumbu-bumbu yang dibutuhkan:
+2 lembar daun salam.
+½ ruas lengkuas.
+½ sendok teh merica bubuk.
+1 sendok teh garam.
+2 batang daun bawang.
+2 batang seledri.
+2 sendok makan bawang goreng.
+1 sendok makan bawang putih goreng.
+Untuk Sambal:
+10 buah cabai rawit direbus.
+1 sendok makan air.
+½ sendok teh cuka.
+Garam secukupnya.
+Cara membuat:
+1.Rebus daging dengan 2 liter air, daun salam lengkuas. Biarkan daging sampai lunak.
+2.Potong daging bentuk dadu masukkan kedalam 1 ½ liter kaldu.
+3.Tambahkan garam, merica dan bawang putih goreng. Dididihkan.
+4.Masukkan lobak yang diiris tipis, lalu masak sampai matang.
+5.Hidangkan dalam mangkok lalu taburi irisan daun bawang, seledri, kedelai goreng dan bawang putih goreng. Sertai sambal, kecap dan jeruk nipis
+</item>
+        <item>Bahan-bahan:
+250 gram kerupuk aci merah
+8 siung bawang putih
+2 butir telur
+5 buah cabai rawit
+5 buah cabai merah keriting
+5 buah kencur
+2 batang daun bawang
+1 sachet masako rasa sapi
+2 sdt garam
+2 potong daging/bakso/sosis
+Cara membuat:
+1. Rendam kerupuk semalaman, atau jika ingin cepat rebus kerupuk mentah sambil diaduk-aduk. Setelah agak lembek, angkat kerupuk dan tiriskan.
+2. Blender halus bawang putih, kencur, cabe.
+3. Panaskan minyak untuk menumis dan tumis bumbu halus yang sudah diblender tadi sampai harum. Kemudian masukkan telur dan aduk-aduk hingga matang.
+4. Masukkan kerupuk, bakso, dan garam lalu aduk rata. Tambahkan sedikit air agar tidak terlalu kering.
+5. Setelah matang, angkat dan sajikan dengan taburan daun bawang di atasnya.
+</item>
+        <item>Bahan-bahan:
+1 kg ikan merah (4 ekor)
+5 siung bawang merah
+3 siung bawang putih
+4 butir kemiri
+2 cm kunyit
+2 cm jahe
+1 sdt ketumbar
+1 buah tomat potong 4
+6 buah cabe rawit
+2 lembar daun jeruk purut iris tipis
+1 ikat kemangi
+3 sdm minyak untuk menumis
+100 cc air
+1 sdt garam
+1 sdt gula
+1 batang serai iris tipis serong
+Cara membuat:
+1. Ikan merah cuci dan bersihkan, lalu tiriskan. Susun di piring cekung dan susun tomat, dan cabe diatas ikan.
+2. Haluskan bawang merah, bawang putih, jahe, kemiri, ketumbar, dan kunyit.
+3. Tumis bumbu halus sampai harum, tambahkan semua bahan kecuali tomat, cabe, dan kemangi.
+4. Masukkan tumisan bumbu ke atas ikan, lalu kukus ikan selama 15 sampai 20 menit. Setelah 20 menit, angkat dan taburkan daun kemangi di atasnya.
+</item>
+
+
+    </string-array>
 </resources>
